@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script>
+        /*100-1000素数*/
+        function prime(num) {
+            var bFlag =  false;//标志位
+            for(var i=2;i<num;i++){
+                if(num % i == 0){
+                    bFlag=false;
+                    break;
+                }else{
+                    bFlag=true;
+                }
+            }
+            return bFlag;
+        }i
+        for(var=100;i<=1000;i++){
+            prime(i);
+        }
+//斐波那契数列
+      /*  function fb(n) {
+            if(n == 1 || n==2){
+                return 1;
+            }
+            return fb(n-1)+fb(n-2)
+        }
+        console.log(fb());*/
+      function getPI(n) {
+          var pi=0;
+          for(var i=1;i<=n;i++){
+          4*Math.pow(-1,n-1)/(2*n-1);
+         }
+         return pi;
+      }
+      var arr=[100,500,1000,10000];
+      for(var i=0,len=arr.length;i<len;i++){
+          getPI(n);
+      }
+//老虎机
+      function getRangeRandom(low,high) {
+          return Math.cell(Math.random()*(high-low))+low;
+
+      }
+      var total=1000;
+      var win=0;
+      for(var i=i<total;i++) {
+          for (var j = 0; j < 3; j ++) {
+              if (getRangeRandom(1, 9) == 8) {
+                  win++;
+                  break;
+              }
+          }
+      }
+      console.log()
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+       // var n=window.prompt('请输入数字0-6：');
+        //if (n==0) {
+            //alert("星期一")
+        //}
+ /*     var a=1;
+        for (var i=1;i<=10;i++) {
+            a=a*i;
+        }
+        alert(a);*/
+       /*document.write('<h1>1</h1>');
+       document.write('<h1>1 2</h1>')
+       document.write('<h1>1 2 3</h1>')
+       document.write('<h1>1 2 3 4</h1>')
+       document.write('<h1>1 2 3 4 5</h1>')*/
+     /*  document.write('<h1>&nbsp;&nbsp;&nbsp;&nbsp;*  </h1>')
+       document.write('<h1>&nbsp;&nbsp;&nbsp;* * </h1>')
+       document.write('<h1>&nbsp;&nbsp;* * * </h1>')
+       document.write('<h1>&nbsp;* * * *</h1>')
+       document.write('<h1>* * * * *</h1>')*/
+/*
+for(var x=1000;x<=9999;x++)   {
+    var A=Math.floor(x/1000)
+    var B=Math.floor((x-A*1000)/100)
+    var C=Math.floor((x-A*1000-B*100)/10)
+    if(x%13==0 && A==B+C ){
+        console.log(x);
+
+    }
+}*/
+/*function p(n) {
+    for (var i = 1; i <= n; i++) {
+        for (var k =n-i; k>= 1; k--) {
+            document.write('&nbsp;');
+        }
+        for (var j = 1; j <= i; j++) {
+            document.write('*' + "&nbsp;");
+        }
+        document.write('<br>');
+    }
+}
+console.log(p(5));
+/*阶乘function fac(n){
+    var result=1;
+        for(var i=1;i<=n;i++){
+        result*=i;
+        }
+        return result;
+     }
+     console.log(fac(10))*/
+
+     /*  function fac2(n){
+           if(n==1){
+               return 1;
+           }
+           return n * arguments.
+       } */
+    /* var sun=0;
+     for(var i=1;i<=10;i++){
+         sum +=fac(i);
+     }
+     console.log(sum)*/
+/*var n=window.prompt('请输入x:')
+    function fn(x) {
+    y=4*x*x+3*x+2;
+    return y;
+
+}
+fn(n);
+document.write(y);*/
+/*var x=window.prompt("请输入x：");
+var y=window.prompt("请输入y：");
+       function min(x,y) {
+if(x<y){
+    document.write(x);
+}    else if(y<x) {
+    document.write(y);
+}
+}
+min(x,y);*/
+var n=window.prompt("请输入:")
+        if(n%3==0&&n%5==0&&n%7==0){
+    document.write("可以");
+        }else{
+    document.write("不可");
+        }
+        document.write('<br>');
+        for(i=1;i<=1000;i++){
+    if(i%3==0&&i%5==0&&i%7==0){
+        document.write(i,'&nbsp;');
+    }
+        }
+
+    </script>
+</body>
+</html>
